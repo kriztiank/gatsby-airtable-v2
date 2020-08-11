@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import styled from "styled-components"
-import logo from "../images/logo.svg"
+import logo from "../images/logo.png"
 import { GoThreeBars } from "react-icons/go"
 import { Link } from "gatsby"
 import NavLink from "./NavLink"
@@ -40,7 +40,7 @@ const Navbar = () => {
 
 const Wrapper = styled.nav`
   position: relative;
-  background: transparent;
+  background: black;
   z-index: 1;
   height: 5rem;
   display: flex;
@@ -58,6 +58,7 @@ const Wrapper = styled.nav`
     img {
       width: auto;
     }
+    /* burger button */
     .toggle-btn {
       width: 3.5rem;
       height: 2.25rem;
@@ -68,11 +69,11 @@ const Wrapper = styled.nav`
       border-radius: 2rem;
       border: transparent;
       color: var(--clr-white);
-      background: var(--clr-primary-5);
+      background: grey;
       cursor: pointer;
       transition: var(--transition);
       &:hover {
-        background: var(--clr-primary-3);
+        background: grey;
       }
     }
   }
