@@ -29,8 +29,7 @@ const Hero = ({ projects }) => {
     <Wrapper>
       <Background image={images[index]}>
         <article>
-          <h3>If you can dream it, we can create it</h3>
-          <h1>let your home be unique and stylish</h1>
+          <h1>VELKOMMEN TIL HOTEL OVERLOOK ONLINE</h1>
           <Link to="/projects">Projects</Link>
         </article>
         <button className="prev-btn" onClick={() => setIndex(index - 1)}>
